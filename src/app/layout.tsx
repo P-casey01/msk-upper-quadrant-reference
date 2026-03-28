@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google'
 import { ThemeProvider } from 'next-themes'
 import { Header } from '@/components/layout/Header'
 import { Footer } from '@/components/layout/Footer'
+import { MobileBottomNav } from '@/components/ui/MobileBottomNav'
 import './globals.css'
 
 const inter = Inter({
@@ -48,10 +49,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className="flex min-h-screen flex-col">
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           <Header />
-          <main className="flex-1">
+          <main className="flex-1 pb-14 lg:pb-0">
             {children}
           </main>
           <Footer />
+          <MobileBottomNav />
         </ThemeProvider>
       </body>
     </html>

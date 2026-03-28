@@ -8,6 +8,8 @@ import { getConditionContent } from '@/lib/mdx'
 import { Sidebar } from '@/components/layout/Sidebar'
 import { Breadcrumb } from '@/components/layout/Breadcrumb'
 import { mdxComponents } from '@/components/mdx/MDXComponents'
+import { QuickFacts } from '@/components/ui/QuickFacts'
+import { ConditionPageClient } from '@/components/ui/ConditionPageClient'
 import { Clock, Tag } from 'lucide-react'
 
 interface Props {
@@ -25,7 +27,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   return {
     title: `${condition.label} — ${region.label}`,
-    description: `Clinical reference for ${condition.label}. Special tests, red flags, management, and evidence-based diagnosis.`,
+    description: `Clinical reference for ${condition.label}. Special tests with diagnostic accuracy, red flags, management, and evidence-based diagnosis.`,
   }
 }
 
@@ -43,7 +45,12 @@ export default async function ConditionPage({ params }: Props) {
     <div className="flex">
       <Sidebar currentRegion={regionSlug} currentCondition={conditionSlug} />
 
-      <div className="flex-1 min-w-0 px-4 py-8 sm:px-8 lg:px-12">
+      {/* Client-side interactive elements */}
+      {result && result.sections.length > 0 && (
+        <ConditionPageClient sections={result.sections} />
+      )}
+
+      <div className="flex-1 min-w-0 px-4 py-8 sm:px-8 lg:px-12 xl:pr-4 pb-24 lg:pb-8">
         {/* Breadcrumb */}
         <Breadcrumb crumbs={[
           { label: region.label, href: `/${regionSlug}` },
@@ -52,21 +59,28 @@ export default async function ConditionPage({ params }: Props) {
 
         {/* Page header */}
         <div className="mb-6">
-          <div className="flex flex-wrap items-center gap-2 mb-2">
-            {condition.icd10 && (
-              <span className="rounded bg-surface-100 px-2 py-0.5 font-mono text-xs text-surface-500 dark:bg-surface-800 dark:text-surface-400">
-                ICD-10: {condition.icd10}
-              </span>
-            )}
-          </div>
-          <h1 className="text-3xl font-bold text-surface-900 dark:text-surface-50">
+          <h1 className="text-3xl font-bold text-surface-900 dark:text-surface-50 mb-2">
             {condition.label}
           </h1>
+          {result?.frontmatter.evidence_level && (
+            <span className="inline-flex items-center rounded-full bg-green-100 px-2.5 py-0.5 text-xs font-semibold text-green-800 dark:bg-green-900 dark:text-green-200">
+              Evidence: {result.frontmatter.evidence_level}
+            </span>
+          )}
         </div>
 
-        {/* Section anchor nav */}
+        {/* Quick Facts Card */}
+        {result && (
+          <QuickFacts
+            condition={condition}
+            frontmatter={result.frontmatter}
+            sections={result.sections}
+          />
+        )}
+
+        {/* Section anchor nav (mobile-friendly pills) */}
         {result && result.sections.length > 0 && (
-          <nav aria-label="Page sections" className="mb-8 flex flex-wrap gap-2">
+          <nav aria-label="Page sections" className="mb-8 flex flex-wrap gap-2 xl:hidden">
             {result.sections.map(section => (
               <a
                 key={section.slug}
@@ -94,13 +108,13 @@ export default async function ConditionPage({ params }: Props) {
             />
 
             {/* Footer metadata */}
-            {(result.frontmatter.lastReviewed || result.frontmatter.reviewedBy) && (
+            {(result.frontmatter.lastReviewed || result.frontmatter.reviewedBy || result.frontmatter.lastUpdated) && (
               <footer className="mt-10 border-t border-surface-200 pt-6 text-xs text-surface-400 dark:border-surface-700 dark:text-surface-500">
                 <div className="flex flex-wrap gap-4">
-                  {result.frontmatter.lastReviewed && (
+                  {(result.frontmatter.lastReviewed || result.frontmatter.lastUpdated) && (
                     <span className="flex items-center gap-1">
                       <Clock className="h-3.5 w-3.5" aria-hidden />
-                      Last reviewed: {result.frontmatter.lastReviewed}
+                      Last reviewed: {result.frontmatter.lastReviewed || result.frontmatter.lastUpdated}
                     </span>
                   )}
                   {result.frontmatter.reviewedBy && (

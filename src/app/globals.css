@@ -9,6 +9,7 @@
 
   html {
     @apply scroll-smooth;
+    scroll-padding-top: 5rem;
   }
 
   body {
@@ -31,10 +32,93 @@
 @layer utilities {
   .prose-clinical {
     @apply prose prose-slate max-w-none dark:prose-invert
-      prose-headings:font-semibold
+      prose-headings:font-semibold prose-headings:scroll-mt-20
       prose-a:text-brand-600 dark:prose-a:text-brand-400
       prose-strong:text-surface-800 dark:prose-strong:text-surface-200
       prose-code:rounded prose-code:bg-surface-100 prose-code:px-1 prose-code:text-sm
       dark:prose-code:bg-surface-800;
+  }
+
+  /* Improved dark mode table contrast */
+  .prose-clinical :is(th, td) {
+    @apply dark:border-surface-600;
+  }
+  .prose-clinical thead th {
+    @apply dark:bg-surface-700 dark:text-surface-200;
+  }
+  .prose-clinical tbody tr:hover {
+    @apply dark:bg-surface-800/70;
+  }
+}
+
+/* ─── Print styles ─────────────────────────────────────────────────────────── */
+@media print {
+  @page {
+    margin: 1.5cm;
+  }
+
+  body {
+    font-size: 11pt;
+    color: #000;
+    background: #fff;
+  }
+
+  /* Hide navigation/interactive elements */
+  header,
+  footer,
+  aside,
+  nav[aria-label="Region quick access"],
+  nav[aria-label="Page sections"],
+  .print\\:hidden,
+  [class*="fixed"],
+  button {
+    display: none !important;
+  }
+
+  main {
+    padding: 0 !important;
+  }
+
+  /* Ensure content fills page */
+  .flex-1 {
+    width: 100% !important;
+    padding: 0 !important;
+  }
+
+  /* Prevent page breaks inside key elements */
+  .rounded-xl,
+  table,
+  tr,
+  blockquote,
+  pre {
+    break-inside: avoid;
+  }
+
+  h2, h3 {
+    break-after: avoid;
+  }
+
+  /* Make links visible */
+  a[href^="http"]:after {
+    content: " (" attr(href) ")";
+    font-size: 0.8em;
+    color: #666;
+  }
+
+  /* Clean up callout/red-flag borders for print */
+  .border-danger-500,
+  .border-danger-600 {
+    border-color: #000 !important;
+    border-width: 2px !important;
+  }
+
+  /* Remove shadows */
+  [class*="shadow"] {
+    box-shadow: none !important;
+  }
+
+  /* Tables should be visible */
+  table {
+    width: 100% !important;
   }
 }
