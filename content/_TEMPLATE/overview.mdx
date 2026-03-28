@@ -1,0 +1,118 @@
+---
+# ─── REQUIRED FIELDS ──────────────────────────────────────────────────────────
+title: "[Condition Name] — Overview & Pathophysiology"
+region: cervical                      # cervical | thoracic | shoulder | elbow | wrist-hand
+condition: condition-slug             # must match the slug in src/data/taxonomy.ts
+section: overview                     # must match a SectionSlug
+
+# ─── REVIEW METADATA ──────────────────────────────────────────────────────────
+lastReviewed: "2024-01-01"           # ISO date
+reviewedBy: "MSK Clinical Team, HSC NI"
+evidenceGrade: B                      # A | B | C | D | GPP
+
+# ─── OPTIONAL ─────────────────────────────────────────────────────────────────
+icd10: M00.0                          # ICD-10 code
+tags:
+  - tag-one
+  - tag-two
+relatedConditions:
+  - related-condition-slug
+
+# ─── CITATIONS ────────────────────────────────────────────────────────────────
+# These are referenced inline with <Cite id="key" /> and rendered via <CitationList />
+citations:
+  - id: authoryear                    # unique key used in <Cite id="authoryear" />
+    authors: ["Author A", "Author B"]
+    year: 2024
+    title: "Full paper title here"
+    journal: "Journal Name"
+    volume: "10"
+    issue: "2"
+    pages: "100-110"
+    doi: 10.0000/example
+    pmid: "12345678"
+    url: https://example.com          # fallback if no DOI/PMID
+---
+
+# [Condition Name]
+
+## Definition
+
+Write a clear, concise definition. Include preferred terminology and rationale. <Cite id="authoryear" />
+
+---
+
+## Epidemiology
+
+- Prevalence/incidence (with source)
+- Demographics (age, sex, occupation)
+- Relevance to HSC NI population if applicable
+
+---
+
+## Anatomy
+
+Describe the relevant anatomy concisely. Use a table where appropriate:
+
+| Structure | Description |
+|-----------|-------------|
+| Example   | Description |
+
+---
+
+## Pathophysiology
+
+Explain the mechanism(s) of disease. Where multiple models exist, present them:
+
+### Model / Theory Name
+
+Explanation...
+
+<Callout variant="info" title="Key Concept">
+  Use callouts for important clinical concepts. Available variants: `info`, `warning`, `danger`, `tip`, `evidence`
+</Callout>
+
+---
+
+## Risk Factors
+
+**Intrinsic:**
+- Factor 1
+- Factor 2
+
+**Extrinsic:**
+- Factor 1
+- Factor 2
+
+---
+
+## Natural History
+
+- Prognosis with and without treatment
+- Typical timeline of recovery
+- Factors affecting outcome
+
+---
+
+## Clinical Presentation
+
+Brief summary (detailed assessment covered in special-tests.mdx and evidence-based-diagnosis.mdx):
+- Symptom onset, character, behaviour
+- Aggravating / easing factors
+- 24-hour pattern
+
+---
+
+{/* Render the citation list at the bottom of every page */}
+<CitationList citations={[
+  {
+    id: "authoryear",
+    authors: ["Author A", "Author B"],
+    year: 2024,
+    title: "Full paper title here",
+    journal: "Journal Name",
+    volume: "10",
+    pages: "100-110",
+    doi: "10.0000/example"
+  }
+]} />

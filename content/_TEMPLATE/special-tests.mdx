@@ -1,0 +1,60 @@
+---
+title: "[Condition Name] — Special Tests"
+region: cervical
+condition: condition-slug
+section: special-tests
+lastReviewed: "2024-01-01"
+reviewedBy: "MSK Clinical Team, HSC NI"
+evidenceGrade: B
+---
+
+# Special Tests — [Condition Name]
+
+<Callout variant="info" title="Interpreting Diagnostic Accuracy">
+  No single test is diagnostic in isolation. Use clinical clusters and integrate with history.
+  LR+ >5 is clinically meaningful (rules in). LR- <0.2 is clinically meaningful (rules out).
+</Callout>
+
+---
+
+## [Test Category Name]
+
+export const tests = [
+  {
+    name: "Test Name",
+    target: "What pathology this tests",
+    sensitivity: 80,              // percentage, or "N/A"
+    specificity: 75,
+    lr_positive: 3.2,             // or "N/A"
+    lr_negative: 0.27,
+    description: "How to perform the test",
+    notes: "Clinical interpretation notes",
+    reference: "authoryear"       // cite key
+  },
+  // Add more tests...
+]
+
+<SpecialTestsTable tests={tests} />
+
+---
+
+## Clinical Prediction Rules / Clusters
+
+Describe any validated diagnostic clusters for this condition.
+
+<Callout variant="evidence" title="[Rule Name]">
+  Description of the clinical prediction rule and its diagnostic utility.
+</Callout>
+
+---
+
+<CitationList citations={[
+  {
+    id: "authoryear",
+    authors: ["Author"],
+    year: 2024,
+    title: "Study title",
+    journal: "Journal",
+    doi: "10.0000/doi"
+  }
+]} />

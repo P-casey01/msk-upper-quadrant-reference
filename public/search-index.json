@@ -1,0 +1,299 @@
+[
+  {
+    "id": "cervical/cervical-artery-dysfunction",
+    "title": "Cervical Artery Dysfunction",
+    "region": "cervical",
+    "condition": "cervical-artery-dysfunction",
+    "section": "",
+    "content": "Overview & Pathophysiology Cervical Artery Dysfunction CAD encompasses pathological conditions of the vertebral arteries VA and internal carotid arteries ICA in the cervical region that may present with symptoms mimicking musculoskeletal neck pain or headache — and may be precipitated or exacerbated",
+    "href": "/cervical/cervical-artery-dysfunction"
+  },
+  {
+    "id": "cervical/cervical-myelopathy",
+    "title": "Cervical Myelopathy",
+    "region": "cervical",
+    "condition": "cervical-myelopathy",
+    "section": "",
+    "content": "Overview & Pathophysiology Cervical myelopathy CM — more precisely degenerative cervical myelopathy DCM — is the most common cause of spinal cord dysfunction in adults over 50 years, with an estimated prevalence of 60 per 100,000 in North America/Europe Nouri et al., 2015. It is the leading cause of",
+    "href": "/cervical/cervical-myelopathy"
+  },
+  {
+    "id": "cervical/cervical-radiculopathy",
+    "title": "Cervical Radiculopathy",
+    "region": "cervical",
+    "condition": "cervical-radiculopathy",
+    "section": "",
+    "content": "Overview & Pathophysiology Cervical radiculopathy CR is a clinical syndrome characterised by pain, neurological deficits, or both, caused by compression or irritation of a cervical nerve root. Annual incidence is approximately 83 per 100,000 population, with peak onset between 50–54 years of age Rad",
+    "href": "/cervical/cervical-radiculopathy"
+  },
+  {
+    "id": "cervical/cervicogenic-headache",
+    "title": "Cervicogenic Headache",
+    "region": "cervical",
+    "condition": "cervicogenic-headache",
+    "section": "",
+    "content": "import { ClinicalNote, RedFlag, EvidenceBadge, ReferralBox } from \"@/components/clinical\" Cervicogenic Headache > Clinical Summary: Cervicogenic headache CGH is a secondary headache arising from structural pathology of the cervical spine, particularly the upper three cervical segments C1–C3. It acco",
+    "href": "/cervical/cervicogenic-headache"
+  },
+  {
+    "id": "cervical/mechanical-neck-pain",
+    "title": "Mechanical Neck Pain",
+    "region": "cervical",
+    "condition": "mechanical-neck-pain",
+    "section": "",
+    "content": "Overview & Pathophysiology Mechanical neck pain MNP is the most prevalent cervical spine condition, with a point prevalence of ~14–15% globally and lifetime prevalence up to 67% Fejer et al., 2006. It is the fourth leading cause of disability worldwide Hoy et al., 2014. Annual incidence in UK primar",
+    "href": "/cervical/mechanical-neck-pain"
+  },
+  {
+    "id": "cervical/whiplash-associated-disorders",
+    "title": "Whiplash Associated Disorders",
+    "region": "cervical",
+    "condition": "whiplash-associated-disorders",
+    "section": "",
+    "content": "Overview & Pathophysiology Whiplash Associated Disorders WAD is the term describing the constellation of symptoms following an acceleration-deceleration injury to the cervical spine, most commonly from motor vehicle collisions MVCs. The Québec Task Force QTF on Whiplash-Associated Disorders Spitzer ",
+    "href": "/cervical/whiplash-associated-disorders"
+  },
+  {
+    "id": "elbow/cubital-tunnel-syndrome",
+    "title": "Cubital Tunnel Syndrome (Ulnar Neuropathy at the Elbow)",
+    "region": "elbow",
+    "condition": "cubital-tunnel-syndrome",
+    "section": "",
+    "content": "Overview & Pathophysiology Cubital tunnel syndrome CuTS is the second most common peripheral nerve entrapment syndrome after carpal tunnel syndrome, accounting for approximately 20% of peripheral nerve compressions. Prevalence estimates range from 25–38 per 100,000 person-years; higher in manual wor",
+    "href": "/elbow/cubital-tunnel-syndrome"
+  },
+  {
+    "id": "elbow/elbow-osteoarthritis",
+    "title": "Elbow Osteoarthritis",
+    "region": "elbow",
+    "condition": "elbow-osteoarthritis",
+    "section": "",
+    "content": "Elbow Osteoarthritis Overview Elbow osteoarthritis OA is a degenerative joint disease characterised by progressive loss of articular cartilage, subchondral bone changes, osteophyte formation, and synovial inflammation within the elbow joint complex humeroulnar, humeroradial, and proximal radioulnar ",
+    "href": "/elbow/elbow-osteoarthritis"
+  },
+  {
+    "id": "elbow/lateral-epicondylalgia",
+    "title": "Lateral Epicondylalgia (Tennis Elbow)",
+    "region": "elbow",
+    "condition": "lateral-epicondylalgia",
+    "section": "",
+    "content": "Overview & Pathophysiology Lateral epicondylalgia LE — commonly termed \"tennis elbow\" — is the most prevalent elbow disorder in primary care, with a population prevalence of 1–3% and peak incidence in the 35–54 age group. It accounts for approximately 5% of all shoulder and arm complaints presenting",
+    "href": "/elbow/lateral-epicondylalgia"
+  },
+  {
+    "id": "elbow/medial-epicondylalgia",
+    "title": "Medial Epicondylalgia (Golfer's Elbow)",
+    "region": "elbow",
+    "condition": "medial-epicondylalgia",
+    "section": "",
+    "content": "Overview & Pathophysiology Medial epicondylalgia ME — historically termed \"golfer's elbow\" or medial epicondylitis — is a common cause of medial elbow pain, accounting for approximately 10–20% of elbow tendinopathies presenting in clinical practice. True incidence is lower than lateral epicondylalgi",
+    "href": "/elbow/medial-epicondylalgia"
+  },
+  {
+    "id": "elbow/olecranon-bursitis",
+    "title": "Olecranon Bursitis",
+    "region": "elbow",
+    "condition": "olecranon-bursitis",
+    "section": "",
+    "content": "Overview & Pathophysiology Olecranon bursitis is inflammation of the olecranon bursa — a superficial synovial-lined sac located between the olecranon process of the ulna and the overlying skin. It is the most common bursitis of the elbow and one of the most frequently encountered superficial bursiti",
+    "href": "/elbow/olecranon-bursitis"
+  },
+  {
+    "id": "elbow/radial-tunnel-syndrome",
+    "title": "Radial Tunnel Syndrome",
+    "region": "elbow",
+    "condition": "radial-tunnel-syndrome",
+    "section": "",
+    "content": "Overview & Pathophysiology Radial tunnel syndrome RTS is a chronic pain condition resulting from compression or irritation of the radial nerve specifically the posterior interosseous nerve — PIN within the radial tunnel. It is arguably the most diagnostically challenging and controversial condition ",
+    "href": "/elbow/radial-tunnel-syndrome"
+  },
+  {
+    "id": "shoulder/acromioclavicular-joint",
+    "title": "Acromioclavicular Joint Disorders",
+    "region": "shoulder",
+    "condition": "acromioclavicular-joint",
+    "section": "",
+    "content": "Overview & Pathophysiology The acromioclavicular joint ACJ is a diarthrodial joint between the distal clavicle and the acromion, stabilised by the acromioclavicular AC and coracoclavicular CC ligaments trapezoid and conoid. It transmits forces between the upper limb and axial skeleton and allows app",
+    "href": "/shoulder/acromioclavicular-joint"
+  },
+  {
+    "id": "shoulder/adhesive-capsulitis",
+    "title": "Adhesive Capsulitis (Frozen Shoulder)",
+    "region": "shoulder",
+    "condition": "adhesive-capsulitis",
+    "section": "",
+    "content": "Overview & Pathophysiology Adhesive capsulitis frozen shoulder is a painful, progressive condition characterised by diffuse fibrosis and contracture of the glenohumeral joint capsule, resulting in significant restriction of active and passive range of motion in a capsular pattern. It is a distinct c",
+    "href": "/shoulder/adhesive-capsulitis"
+  },
+  {
+    "id": "shoulder/calcific-tendinitis",
+    "title": "Calcific Tendinitis of the Shoulder",
+    "region": "shoulder",
+    "condition": "calcific-tendinitis",
+    "section": "",
+    "content": "Overview & Pathophysiology Calcific tendinitis CT of the shoulder is characterised by the deposition of calcium hydroxyapatite crystals within the rotator cuff tendons, most commonly the supraspinatus 80–90% of cases, followed by infraspinatus ~10% and subscapularis ~5%. It affects 2.7–8% of the adu",
+    "href": "/shoulder/calcific-tendinitis"
+  },
+  {
+    "id": "shoulder/labral-tears",
+    "title": "Shoulder Labral Tears (SLAP & Bankart Lesions)",
+    "region": "shoulder",
+    "condition": "labral-tears",
+    "section": "",
+    "content": "Overview & Pathophysiology The glenoid labrum is a fibrocartilaginous rim attached to the periphery of the glenoid fossa, deepening the socket by approximately 50% and contributing significantly to glenohumeral stability. Labral tears fall into two main clinical categories encountered in MSK physiot",
+    "href": "/shoulder/labral-tears"
+  },
+  {
+    "id": "shoulder/rotator-cuff-tear",
+    "title": "Rotator Cuff Tear",
+    "region": "shoulder",
+    "condition": "rotator-cuff-tear",
+    "section": "",
+    "content": "Overview & Pathophysiology Rotator cuff tears are among the most clinically significant shoulder conditions encountered in musculoskeletal physiotherapy. They represent a spectrum from partial-thickness tears through full-thickness complete tears to massive rotator cuff tears involving multiple tend",
+    "href": "/shoulder/rotator-cuff-tear"
+  },
+  {
+    "id": "shoulder/rotator-cuff-tendinopathy",
+    "title": "Rotator Cuff Tendinopathy",
+    "region": "shoulder",
+    "condition": "rotator-cuff-tendinopathy",
+    "section": "",
+    "content": "Overview & Pathophysiology Rotator cuff tendinopathy is a broad term encompassing pain and dysfunction arising from the rotator cuff tendons — most commonly the supraspinatus, followed by infraspinatus and subscapularis. It represents one of the most prevalent musculoskeletal conditions in clinical ",
+    "href": "/shoulder/rotator-cuff-tendinopathy"
+  },
+  {
+    "id": "shoulder/shoulder-instability",
+    "title": "Shoulder Instability",
+    "region": "shoulder",
+    "condition": "shoulder-instability",
+    "section": "",
+    "content": "Overview & Pathophysiology Shoulder instability refers to symptomatic excessive translation of the humeral head relative to the glenoid, ranging from subtle microinstability to recurrent dislocation. It is the most common joint dislocation, accounting for approximately 45% of all dislocations presen",
+    "href": "/shoulder/shoulder-instability"
+  },
+  {
+    "id": "shoulder/subacromial-pain-syndrome",
+    "title": "Subacromial Pain Syndrome (SAPS)",
+    "region": "shoulder",
+    "condition": "subacromial-pain-syndrome",
+    "section": "",
+    "content": "Overview & Pathophysiology Subacromial Pain Syndrome SAPS is the currently preferred umbrella term for pain arising from the subacromial space, replacing the older — and now disputed — term \"subacromial impingement syndrome\" SIS. SAPS encompasses pathology of the subacromial bursa, the rotator cuff ",
+    "href": "/shoulder/subacromial-pain-syndrome"
+  },
+  {
+    "id": "thoracic/costochondritis",
+    "title": "Costochondritis",
+    "region": "thoracic",
+    "condition": "costochondritis",
+    "section": "",
+    "content": "Overview & Pathophysiology Costochondritis is inflammation of the costochondral or costo-sternal junctions causing anterior chest wall pain. It is one of the most common causes of chest pain presenting to both primary care and emergency departments, accounting for approximately 13–36% of chest pain ",
+    "href": "/thoracic/costochondritis"
+  },
+  {
+    "id": "thoracic/scheuermanns-disease",
+    "title": "Scheuermann's Disease",
+    "region": "thoracic",
+    "condition": "scheuermanns-disease",
+    "section": "",
+    "content": "Overview & Pathophysiology Scheuermann's disease Scheuermann's kyphosis; juvenile kyphosis is a structural developmental disorder characterised by anterior vertebral body wedging producing a rigid thoracic hyperkyphosis. It is the most common cause of structural kyphosis in adolescents. Diagnostic C",
+    "href": "/thoracic/scheuermanns-disease"
+  },
+  {
+    "id": "thoracic/thoracic-disc-herniation",
+    "title": "Thoracic Disc Herniation",
+    "region": "thoracic",
+    "condition": "thoracic-disc-herniation",
+    "section": "",
+    "content": "Overview & Pathophysiology Thoracic disc herniation TDH is the displacement of disc material nucleus pulposus, annulus fibrosus, or both beyond the intervertebral space in the thoracic spine T1–T12. While less common than cervical or lumbar disc herniation, TDH carries significant clinical importanc",
+    "href": "/thoracic/thoracic-disc-herniation"
+  },
+  {
+    "id": "thoracic/thoracic-facet-joint-pain",
+    "title": "Thoracic Facet Joint Pain",
+    "region": "thoracic",
+    "condition": "thoracic-facet-joint-pain",
+    "section": "",
+    "content": "Overview & Pathophysiology Thoracic facet joint pain also termed thoracic zygapophyseal joint pain refers to pain arising from the synovial facet zygapophyseal joints of the thoracic spine. It is a recognised but frequently underdiagnosed cause of mid-back pain in the adult population. Prevalence - ",
+    "href": "/thoracic/thoracic-facet-joint-pain"
+  },
+  {
+    "id": "thoracic/thoracic-outlet-syndrome",
+    "title": "Thoracic Outlet Syndrome",
+    "region": "thoracic",
+    "condition": "thoracic-outlet-syndrome",
+    "section": "",
+    "content": "Overview & Pathophysiology Thoracic Outlet Syndrome TOS refers to a group of disorders caused by compression of the neurovascular structures brachial plexus, subclavian artery, subclavian vein as they pass through the thoracic outlet — the space between the clavicle, first rib, and scalene muscles. ",
+    "href": "/thoracic/thoracic-outlet-syndrome"
+  },
+  {
+    "id": "thoracic/thoracic-radiculopathy",
+    "title": "Thoracic Radiculopathy",
+    "region": "thoracic",
+    "condition": "thoracic-radiculopathy",
+    "section": "",
+    "content": "Overview & Pathophysiology Thoracic radiculopathy refers to pain and/or neurological dysfunction attributable to irritation or compression of a thoracic nerve root as it exits the spinal canal through the intervertebral foramen. It is significantly less common than cervical or lumbar radiculopathy, ",
+    "href": "/thoracic/thoracic-radiculopathy"
+  },
+  {
+    "id": "wrist-hand/carpal-tunnel-syndrome",
+    "title": "Carpal Tunnel Syndrome",
+    "region": "wrist-hand",
+    "condition": "carpal-tunnel-syndrome",
+    "section": "",
+    "content": "Carpal Tunnel Syndrome Overview & Pathophysiology Carpal tunnel syndrome CTS is the most common peripheral entrapment neuropathy, affecting 3–6% of the general population and up to 15% of specific occupational groups. It results from compression of the median nerve as it passes through the carpal tu",
+    "href": "/wrist-hand/carpal-tunnel-syndrome"
+  },
+  {
+    "id": "wrist-hand/de-quervains-tenosynovitis",
+    "title": "De Quervain's Tenosynovitis",
+    "region": "wrist-hand",
+    "condition": "de-quervains-tenosynovitis",
+    "section": "",
+    "content": "De Quervain's Tenosynovitis Overview & Pathophysiology De Quervain's tenosynovitis is a stenosing tenosynovitis of the first dorsal compartment of the wrist, affecting the tendons of abductor pollicis longus APL and extensor pollicis brevis EPB. The fibro-osseous tunnel at the radial styloid becomes",
+    "href": "/wrist-hand/de-quervains-tenosynovitis"
+  },
+  {
+    "id": "wrist-hand/dupuytrens-contracture",
+    "title": "Dupuytren's Contracture",
+    "region": "wrist-hand",
+    "condition": "dupuytrens-contracture",
+    "section": "",
+    "content": "Dupuytren's Contracture Palmar Fibromatosis Overview & Pathophysiology Dupuytren's contracture is a benign fibroproliferative disorder of the palmar and digital fascia, characterised by progressive thickening and shortening of the palmar aponeurosis, resulting in fixed flexion contractures of the MC",
+    "href": "/wrist-hand/dupuytrens-contracture"
+  },
+  {
+    "id": "wrist-hand/scaphoid-fracture",
+    "title": "Scaphoid Fracture",
+    "region": "wrist-hand",
+    "condition": "scaphoid-fracture",
+    "section": "",
+    "content": "Overview & Pathophysiology Scaphoid fractures are the most common carpal bone fractures, accounting for approximately 60–70% of all carpal fractures and 2–7% of all fractures. They typically result from a fall on an outstretched hand FOOSH with the wrist in dorsiflexion and radial deviation, transmi",
+    "href": "/wrist-hand/scaphoid-fracture"
+  },
+  {
+    "id": "wrist-hand/tfcc-injury",
+    "title": "TFCC Injury (Triangular Fibrocartilage Complex)",
+    "region": "wrist-hand",
+    "condition": "tfcc-injury",
+    "section": "",
+    "content": "TFCC Injury Triangular Fibrocartilage Complex Overview & Pathophysiology The Triangular Fibrocartilage Complex TFCC is the primary stabiliser of the distal radioulnar joint DRUJ and the ulnocarpal joint, and acts as a load-transmitter distributing approximately 20% of axial load across the ulnar sid",
+    "href": "/wrist-hand/tfcc-injury"
+  },
+  {
+    "id": "wrist-hand/thumb-cmc-osteoarthritis",
+    "title": "Thumb CMC Osteoarthritis (Trapeziometacarpal OA)",
+    "region": "wrist-hand",
+    "condition": "thumb-cmc-osteoarthritis",
+    "section": "",
+    "content": "Thumb CMC Osteoarthritis Trapeziometacarpal / First CMC OA Overview & Pathophysiology Thumb carpometacarpal CMC osteoarthritis — also termed trapeziometacarpal TMC or basal joint OA — is the second most common site of symptomatic OA in the hand after the DIP joint. It results from progressive articu",
+    "href": "/wrist-hand/thumb-cmc-osteoarthritis"
+  },
+  {
+    "id": "wrist-hand/trigger-finger",
+    "title": "Trigger Finger (Stenosing Tenosynovitis)",
+    "region": "wrist-hand",
+    "condition": "trigger-finger",
+    "section": "",
+    "content": "Trigger Finger Stenosing Tenosynovitis Overview & Pathophysiology Trigger finger stenosing tenosynovitis results from a size mismatch between the flexor tendon and the A1 pulley at the level of the MCP joint. Repetitive microtrauma causes fibrocartilaginous metaplasia and hypertrophy of the A1 pulle",
+    "href": "/wrist-hand/trigger-finger"
+  }
+]

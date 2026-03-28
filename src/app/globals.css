@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --font-sans: 'Inter', system-ui, sans-serif;
+  }
+
+  html {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply bg-white text-surface-900 antialiased dark:bg-surface-950 dark:text-surface-50;
+  }
+
+  /* Custom scrollbar */
+  .scrollbar-thin::-webkit-scrollbar {
+    height: 4px;
+    width: 4px;
+  }
+  .scrollbar-thin::-webkit-scrollbar-track {
+    @apply bg-transparent;
+  }
+  .scrollbar-thin::-webkit-scrollbar-thumb {
+    @apply rounded-full bg-surface-300 dark:bg-surface-600;
+  }
+}
+
+@layer utilities {
+  .prose-clinical {
+    @apply prose prose-slate max-w-none dark:prose-invert
+      prose-headings:font-semibold
+      prose-a:text-brand-600 dark:prose-a:text-brand-400
+      prose-strong:text-surface-800 dark:prose-strong:text-surface-200
+      prose-code:rounded prose-code:bg-surface-100 prose-code:px-1 prose-code:text-sm
+      dark:prose-code:bg-surface-800;
+  }
+}
